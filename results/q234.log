@@ -1,0 +1,663 @@
+job start Tue Nov 10 18:37:19 IST 2026 host cn05
+module loaded
+GPU 0: NVIDIA A30 (UUID: GPU-d0d36397-2495-f7c1-b6c0-eec00c986c93)
+Q2 on cuda:0 (NVIDIA A30)
+plan q2_plan.json sha256 05f9e2167be423321909e9243551e15263698eabfd48919cc97767bb4a318fce
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+train permuted mlp_matched seed 26003
+  epoch 01  train_acc 0.447  val_acc 0.431  val_loss 1.634
+  epoch 02  train_acc 0.477  val_acc 0.458  val_loss 1.538
+  epoch 03  train_acc 0.513  val_acc 0.482  val_loss 1.515
+  epoch 04  train_acc 0.513  val_acc 0.475  val_loss 1.506
+  epoch 05  train_acc 0.541  val_acc 0.487  val_loss 1.479
+  epoch 06  train_acc 0.554  val_acc 0.496  val_loss 1.471
+  epoch 07  train_acc 0.559  val_acc 0.487  val_loss 1.484
+  epoch 08  train_acc 0.577  val_acc 0.494  val_loss 1.480
+  epoch 09  train_acc 0.582  val_acc 0.491  val_loss 1.481
+  epoch 10  train_acc 0.603  val_acc 0.497  val_loss 1.474
+  epoch 11  train_acc 0.611  val_acc 0.506  val_loss 1.476
+  epoch 12  train_acc 0.616  val_acc 0.502  val_loss 1.484
+  epoch 13  train_acc 0.629  val_acc 0.502  val_loss 1.512
+  epoch 14  train_acc 0.648  val_acc 0.508  val_loss 1.498
+  epoch 15  train_acc 0.650  val_acc 0.506  val_loss 1.546
+  epoch 16  train_acc 0.662  val_acc 0.501  val_loss 1.550
+  epoch 17  train_acc 0.678  val_acc 0.506  val_loss 1.562
+  epoch 18  train_acc 0.685  val_acc 0.504  val_loss 1.594
+  epoch 19  train_acc 0.695  val_acc 0.513  val_loss 1.609
+  epoch 20  train_acc 0.700  val_acc 0.502  val_loss 1.644
+  epoch 21  train_acc 0.711  val_acc 0.502  val_loss 1.664
+  epoch 22  train_acc 0.719  val_acc 0.503  val_loss 1.698
+  epoch 23  train_acc 0.728  val_acc 0.502  val_loss 1.701
+  epoch 24  train_acc 0.735  val_acc 0.504  val_loss 1.733
+  epoch 25  train_acc 0.738  val_acc 0.502  val_loss 1.738
+  epoch 26  train_acc 0.743  val_acc 0.504  val_loss 1.755
+  epoch 27  train_acc 0.745  val_acc 0.504  val_loss 1.772
+  epoch 28  train_acc 0.748  val_acc 0.504  val_loss 1.775
+  epoch 29  train_acc 0.749  val_acc 0.503  val_loss 1.781
+  epoch 30  train_acc 0.749  val_acc 0.504  val_loss 1.782
+train permuted mlp_matched seed 26004
+  epoch 01  train_acc 0.455  val_acc 0.438  val_loss 1.597
+  epoch 02  train_acc 0.478  val_acc 0.457  val_loss 1.569
+  epoch 03  train_acc 0.519  val_acc 0.486  val_loss 1.486
+  epoch 04  train_acc 0.527  val_acc 0.485  val_loss 1.484
+  epoch 05  train_acc 0.547  val_acc 0.490  val_loss 1.463
+  epoch 06  train_acc 0.562  val_acc 0.507  val_loss 1.458
+  epoch 07  train_acc 0.576  val_acc 0.497  val_loss 1.457
+  epoch 08  train_acc 0.582  val_acc 0.503  val_loss 1.483
+  epoch 09  train_acc 0.584  val_acc 0.499  val_loss 1.488
+  epoch 10  train_acc 0.602  val_acc 0.510  val_loss 1.492
+  epoch 11  train_acc 0.614  val_acc 0.501  val_loss 1.483
+  epoch 12  train_acc 0.627  val_acc 0.507  val_loss 1.474
+  epoch 13  train_acc 0.641  val_acc 0.517  val_loss 1.491
+  epoch 14  train_acc 0.647  val_acc 0.508  val_loss 1.516
+  epoch 15  train_acc 0.656  val_acc 0.512  val_loss 1.539
+  epoch 16  train_acc 0.664  val_acc 0.504  val_loss 1.557
+  epoch 17  train_acc 0.672  val_acc 0.509  val_loss 1.565
+  epoch 18  train_acc 0.688  val_acc 0.510  val_loss 1.594
+  epoch 19  train_acc 0.698  val_acc 0.505  val_loss 1.605
+  epoch 20  train_acc 0.705  val_acc 0.511  val_loss 1.612
+  epoch 21  train_acc 0.717  val_acc 0.509  val_loss 1.653
+  epoch 22  train_acc 0.726  val_acc 0.507  val_loss 1.653
+  epoch 23  train_acc 0.729  val_acc 0.513  val_loss 1.684
+  epoch 24  train_acc 0.738  val_acc 0.509  val_loss 1.706
+  epoch 25  train_acc 0.745  val_acc 0.509  val_loss 1.733
+  epoch 26  train_acc 0.747  val_acc 0.506  val_loss 1.747
+  epoch 27  train_acc 0.750  val_acc 0.507  val_loss 1.753
+  epoch 28  train_acc 0.752  val_acc 0.501  val_loss 1.761
+  epoch 29  train_acc 0.753  val_acc 0.503  val_loss 1.764
+  epoch 30  train_acc 0.753  val_acc 0.502  val_loss 1.764
+train permuted mlp_matched seed 26005
+  epoch 01  train_acc 0.443  val_acc 0.434  val_loss 1.631
+  epoch 02  train_acc 0.486  val_acc 0.454  val_loss 1.549
+  epoch 03  train_acc 0.498  val_acc 0.461  val_loss 1.536
+  epoch 04  train_acc 0.514  val_acc 0.466  val_loss 1.508
+  epoch 05  train_acc 0.541  val_acc 0.489  val_loss 1.467
+  epoch 06  train_acc 0.552  val_acc 0.492  val_loss 1.471
+  epoch 07  train_acc 0.567  val_acc 0.499  val_loss 1.468
+  epoch 08  train_acc 0.569  val_acc 0.493  val_loss 1.475
+  epoch 09  train_acc 0.591  val_acc 0.502  val_loss 1.451
+  epoch 10  train_acc 0.595  val_acc 0.508  val_loss 1.474
+  epoch 11  train_acc 0.609  val_acc 0.499  val_loss 1.481
+  epoch 12  train_acc 0.625  val_acc 0.500  val_loss 1.457
+  epoch 13  train_acc 0.631  val_acc 0.508  val_loss 1.488
+  epoch 14  train_acc 0.639  val_acc 0.506  val_loss 1.499
+  epoch 15  train_acc 0.655  val_acc 0.509  val_loss 1.506
+  epoch 16  train_acc 0.664  val_acc 0.506  val_loss 1.523
+  epoch 17  train_acc 0.679  val_acc 0.505  val_loss 1.542
+  epoch 18  train_acc 0.679  val_acc 0.501  val_loss 1.573
+  epoch 19  train_acc 0.694  val_acc 0.506  val_loss 1.577
+  epoch 20  train_acc 0.706  val_acc 0.509  val_loss 1.586
+  epoch 21  train_acc 0.718  val_acc 0.509  val_loss 1.610
+  epoch 22  train_acc 0.720  val_acc 0.505  val_loss 1.651
+  epoch 23  train_acc 0.730  val_acc 0.507  val_loss 1.645
+  epoch 24  train_acc 0.736  val_acc 0.507  val_loss 1.686
+  epoch 25  train_acc 0.741  val_acc 0.508  val_loss 1.690
+  epoch 26  train_acc 0.745  val_acc 0.506  val_loss 1.710
+  epoch 27  train_acc 0.749  val_acc 0.506  val_loss 1.723
+  epoch 28  train_acc 0.751  val_acc 0.501  val_loss 1.721
+  epoch 29  train_acc 0.751  val_acc 0.505  val_loss 1.726
+  epoch 30  train_acc 0.752  val_acc 0.503  val_loss 1.728
+train permuted cnn_matched seed 26003
+  epoch 01  train_acc 0.289  val_acc 0.284  val_loss 1.916
+  epoch 02  train_acc 0.333  val_acc 0.332  val_loss 1.817
+  epoch 03  train_acc 0.354  val_acc 0.355  val_loss 1.751
+  epoch 04  train_acc 0.393  val_acc 0.393  val_loss 1.679
+  epoch 05  train_acc 0.410  val_acc 0.408  val_loss 1.631
+  epoch 06  train_acc 0.448  val_acc 0.441  val_loss 1.556
+  epoch 07  train_acc 0.460  val_acc 0.452  val_loss 1.528
+  epoch 08  train_acc 0.479  val_acc 0.461  val_loss 1.502
+  epoch 09  train_acc 0.494  val_acc 0.467  val_loss 1.467
+  epoch 10  train_acc 0.503  val_acc 0.481  val_loss 1.465
+  epoch 11  train_acc 0.516  val_acc 0.487  val_loss 1.432
+  epoch 12  train_acc 0.521  val_acc 0.483  val_loss 1.440
+  epoch 13  train_acc 0.533  val_acc 0.498  val_loss 1.416
+  epoch 14  train_acc 0.536  val_acc 0.496  val_loss 1.411
+  epoch 15  train_acc 0.545  val_acc 0.494  val_loss 1.409
+  epoch 16  train_acc 0.552  val_acc 0.505  val_loss 1.398
+  epoch 17  train_acc 0.544  val_acc 0.494  val_loss 1.428
+  epoch 18  train_acc 0.559  val_acc 0.505  val_loss 1.388
+  epoch 19  train_acc 0.569  val_acc 0.512  val_loss 1.394
+  epoch 20  train_acc 0.575  val_acc 0.512  val_loss 1.380
+  epoch 21  train_acc 0.580  val_acc 0.517  val_loss 1.372
+  epoch 22  train_acc 0.585  val_acc 0.515  val_loss 1.371
+  epoch 23  train_acc 0.588  val_acc 0.514  val_loss 1.369
+  epoch 24  train_acc 0.590  val_acc 0.514  val_loss 1.372
+  epoch 25  train_acc 0.593  val_acc 0.516  val_loss 1.370
+  epoch 26  train_acc 0.594  val_acc 0.522  val_loss 1.366
+  epoch 27  train_acc 0.597  val_acc 0.521  val_loss 1.363
+  epoch 28  train_acc 0.598  val_acc 0.516  val_loss 1.366
+  epoch 29  train_acc 0.599  val_acc 0.517  val_loss 1.364
+  epoch 30  train_acc 0.599  val_acc 0.518  val_loss 1.362
+train permuted cnn_matched seed 26004
+  epoch 01  train_acc 0.282  val_acc 0.272  val_loss 1.931
+  epoch 02  train_acc 0.296  val_acc 0.293  val_loss 1.882
+  epoch 03  train_acc 0.323  val_acc 0.326  val_loss 1.816
+  epoch 04  train_acc 0.347  val_acc 0.347  val_loss 1.766
+  epoch 05  train_acc 0.369  val_acc 0.368  val_loss 1.734
+  epoch 06  train_acc 0.405  val_acc 0.404  val_loss 1.658
+  epoch 07  train_acc 0.420  val_acc 0.411  val_loss 1.626
+  epoch 08  train_acc 0.425  val_acc 0.417  val_loss 1.622
+  epoch 09  train_acc 0.437  val_acc 0.431  val_loss 1.598
+  epoch 10  train_acc 0.448  val_acc 0.433  val_loss 1.577
+  epoch 11  train_acc 0.445  val_acc 0.424  val_loss 1.623
+  epoch 12  train_acc 0.467  val_acc 0.446  val_loss 1.542
+  epoch 13  train_acc 0.465  val_acc 0.453  val_loss 1.539
+  epoch 14  train_acc 0.478  val_acc 0.451  val_loss 1.526
+  epoch 15  train_acc 0.490  val_acc 0.458  val_loss 1.504
+  epoch 16  train_acc 0.485  val_acc 0.458  val_loss 1.517
+  epoch 17  train_acc 0.488  val_acc 0.457  val_loss 1.517
+  epoch 18  train_acc 0.498  val_acc 0.471  val_loss 1.496
+  epoch 19  train_acc 0.503  val_acc 0.467  val_loss 1.485
+  epoch 20  train_acc 0.500  val_acc 0.461  val_loss 1.487
+  epoch 21  train_acc 0.509  val_acc 0.468  val_loss 1.482
+  epoch 22  train_acc 0.515  val_acc 0.477  val_loss 1.476
+  epoch 23  train_acc 0.514  val_acc 0.474  val_loss 1.473
+  epoch 24  train_acc 0.519  val_acc 0.477  val_loss 1.468
+  epoch 25  train_acc 0.518  val_acc 0.476  val_loss 1.474
+  epoch 26  train_acc 0.520  val_acc 0.479  val_loss 1.468
+  epoch 27  train_acc 0.522  val_acc 0.479  val_loss 1.465
+  epoch 28  train_acc 0.523  val_acc 0.479  val_loss 1.464
+  epoch 29  train_acc 0.522  val_acc 0.478  val_loss 1.463
+  epoch 30  train_acc 0.523  val_acc 0.478  val_loss 1.462
+train permuted cnn_matched seed 26005
+  epoch 01  train_acc 0.257  val_acc 0.253  val_loss 1.955
+  epoch 02  train_acc 0.280  val_acc 0.276  val_loss 1.906
+  epoch 03  train_acc 0.317  val_acc 0.320  val_loss 1.835
+  epoch 04  train_acc 0.339  val_acc 0.336  val_loss 1.826
+  epoch 05  train_acc 0.380  val_acc 0.370  val_loss 1.715
+  epoch 06  train_acc 0.389  val_acc 0.381  val_loss 1.694
+  epoch 07  train_acc 0.415  val_acc 0.404  val_loss 1.645
+  epoch 08  train_acc 0.420  val_acc 0.418  val_loss 1.632
+  epoch 09  train_acc 0.416  val_acc 0.406  val_loss 1.644
+  epoch 10  train_acc 0.444  val_acc 0.431  val_loss 1.584
+  epoch 11  train_acc 0.449  val_acc 0.434  val_loss 1.569
+  epoch 12  train_acc 0.441  val_acc 0.427  val_loss 1.587
+  epoch 13  train_acc 0.452  val_acc 0.432  val_loss 1.557
+  epoch 14  train_acc 0.457  val_acc 0.435  val_loss 1.550
+  epoch 15  train_acc 0.460  val_acc 0.440  val_loss 1.549
+  epoch 16  train_acc 0.460  val_acc 0.441  val_loss 1.551
+  epoch 17  train_acc 0.476  val_acc 0.452  val_loss 1.514
+  epoch 18  train_acc 0.476  val_acc 0.443  val_loss 1.525
+  epoch 19  train_acc 0.481  val_acc 0.454  val_loss 1.510
+  epoch 20  train_acc 0.483  val_acc 0.450  val_loss 1.501
+  epoch 21  train_acc 0.489  val_acc 0.456  val_loss 1.492
+  epoch 22  train_acc 0.488  val_acc 0.459  val_loss 1.494
+  epoch 23  train_acc 0.491  val_acc 0.458  val_loss 1.489
+  epoch 24  train_acc 0.493  val_acc 0.457  val_loss 1.494
+  epoch 25  train_acc 0.491  val_acc 0.465  val_loss 1.489
+  epoch 26  train_acc 0.494  val_acc 0.461  val_loss 1.483
+  epoch 27  train_acc 0.497  val_acc 0.461  val_loss 1.482
+  epoch 28  train_acc 0.497  val_acc 0.461  val_loss 1.483
+  epoch 29  train_acc 0.497  val_acc 0.461  val_loss 1.481
+  epoch 30  train_acc 0.498  val_acc 0.462  val_loss 1.481
+Files already downloaded and verified
+Files already downloaded and verified
+train grayscale mlp_matched seed 26003
+  epoch 01  train_acc 0.360  val_acc 0.345  val_loss 1.886
+  epoch 02  train_acc 0.393  val_acc 0.381  val_loss 1.774
+  epoch 03  train_acc 0.415  val_acc 0.384  val_loss 1.754
+  epoch 04  train_acc 0.432  val_acc 0.404  val_loss 1.719
+  epoch 05  train_acc 0.448  val_acc 0.408  val_loss 1.698
+  epoch 06  train_acc 0.453  val_acc 0.413  val_loss 1.707
+  epoch 07  train_acc 0.460  val_acc 0.407  val_loss 1.710
+  epoch 08  train_acc 0.481  val_acc 0.415  val_loss 1.695
+  epoch 09  train_acc 0.490  val_acc 0.421  val_loss 1.679
+  epoch 10  train_acc 0.500  val_acc 0.418  val_loss 1.689
+  epoch 11  train_acc 0.503  val_acc 0.414  val_loss 1.713
+  epoch 12  train_acc 0.515  val_acc 0.417  val_loss 1.683
+  epoch 13  train_acc 0.519  val_acc 0.409  val_loss 1.710
+  epoch 14  train_acc 0.533  val_acc 0.419  val_loss 1.691
+  epoch 15  train_acc 0.534  val_acc 0.421  val_loss 1.726
+  epoch 16  train_acc 0.545  val_acc 0.418  val_loss 1.735
+  epoch 17  train_acc 0.551  val_acc 0.412  val_loss 1.757
+  epoch 18  train_acc 0.565  val_acc 0.417  val_loss 1.772
+  epoch 19  train_acc 0.574  val_acc 0.425  val_loss 1.762
+  epoch 20  train_acc 0.580  val_acc 0.415  val_loss 1.803
+  epoch 21  train_acc 0.588  val_acc 0.420  val_loss 1.793
+  epoch 22  train_acc 0.591  val_acc 0.411  val_loss 1.822
+  epoch 23  train_acc 0.599  val_acc 0.422  val_loss 1.826
+  epoch 24  train_acc 0.606  val_acc 0.420  val_loss 1.844
+  epoch 25  train_acc 0.609  val_acc 0.420  val_loss 1.857
+  epoch 26  train_acc 0.613  val_acc 0.422  val_loss 1.866
+  epoch 27  train_acc 0.615  val_acc 0.416  val_loss 1.875
+  epoch 28  train_acc 0.616  val_acc 0.419  val_loss 1.877
+  epoch 29  train_acc 0.617  val_acc 0.417  val_loss 1.880
+  epoch 30  train_acc 0.618  val_acc 0.417  val_loss 1.881
+train grayscale mlp_matched seed 26004
+  epoch 01  train_acc 0.354  val_acc 0.348  val_loss 1.853
+  epoch 02  train_acc 0.395  val_acc 0.377  val_loss 1.773
+  epoch 03  train_acc 0.421  val_acc 0.394  val_loss 1.738
+  epoch 04  train_acc 0.436  val_acc 0.401  val_loss 1.718
+  epoch 05  train_acc 0.448  val_acc 0.414  val_loss 1.704
+  epoch 06  train_acc 0.454  val_acc 0.399  val_loss 1.717
+  epoch 07  train_acc 0.471  val_acc 0.411  val_loss 1.685
+  epoch 08  train_acc 0.477  val_acc 0.416  val_loss 1.711
+  epoch 09  train_acc 0.483  val_acc 0.411  val_loss 1.711
+  epoch 10  train_acc 0.496  val_acc 0.411  val_loss 1.699
+  epoch 11  train_acc 0.500  val_acc 0.410  val_loss 1.696
+  epoch 12  train_acc 0.519  val_acc 0.413  val_loss 1.690
+  epoch 13  train_acc 0.526  val_acc 0.422  val_loss 1.714
+  epoch 14  train_acc 0.534  val_acc 0.429  val_loss 1.720
+  epoch 15  train_acc 0.544  val_acc 0.426  val_loss 1.726
+  epoch 16  train_acc 0.549  val_acc 0.419  val_loss 1.757
+  epoch 17  train_acc 0.556  val_acc 0.416  val_loss 1.757
+  epoch 18  train_acc 0.569  val_acc 0.422  val_loss 1.780
+  epoch 19  train_acc 0.577  val_acc 0.419  val_loss 1.775
+  epoch 20  train_acc 0.581  val_acc 0.414  val_loss 1.804
+  epoch 21  train_acc 0.589  val_acc 0.415  val_loss 1.827
+  epoch 22  train_acc 0.596  val_acc 0.420  val_loss 1.819
+  epoch 23  train_acc 0.603  val_acc 0.411  val_loss 1.852
+  epoch 24  train_acc 0.607  val_acc 0.421  val_loss 1.857
+  epoch 25  train_acc 0.613  val_acc 0.421  val_loss 1.868
+  epoch 26  train_acc 0.618  val_acc 0.420  val_loss 1.882
+  epoch 27  train_acc 0.619  val_acc 0.422  val_loss 1.882
+  epoch 28  train_acc 0.621  val_acc 0.419  val_loss 1.893
+  epoch 29  train_acc 0.621  val_acc 0.421  val_loss 1.896
+  epoch 30  train_acc 0.621  val_acc 0.420  val_loss 1.896
+train grayscale mlp_matched seed 26005
+  epoch 01  train_acc 0.362  val_acc 0.364  val_loss 1.832
+  epoch 02  train_acc 0.393  val_acc 0.382  val_loss 1.788
+  epoch 03  train_acc 0.402  val_acc 0.382  val_loss 1.778
+  epoch 04  train_acc 0.415  val_acc 0.380  val_loss 1.789
+  epoch 05  train_acc 0.442  val_acc 0.406  val_loss 1.731
+  epoch 06  train_acc 0.455  val_acc 0.398  val_loss 1.711
+  epoch 07  train_acc 0.476  val_acc 0.409  val_loss 1.697
+  epoch 08  train_acc 0.474  val_acc 0.410  val_loss 1.705
+  epoch 09  train_acc 0.486  val_acc 0.395  val_loss 1.715
+  epoch 10  train_acc 0.483  val_acc 0.392  val_loss 1.758
+  epoch 11  train_acc 0.503  val_acc 0.401  val_loss 1.731
+  epoch 12  train_acc 0.517  val_acc 0.411  val_loss 1.719
+  epoch 13  train_acc 0.519  val_acc 0.415  val_loss 1.717
+  epoch 14  train_acc 0.532  val_acc 0.406  val_loss 1.724
+  epoch 15  train_acc 0.545  val_acc 0.417  val_loss 1.725
+  epoch 16  train_acc 0.557  val_acc 0.418  val_loss 1.741
+  epoch 17  train_acc 0.560  val_acc 0.412  val_loss 1.745
+  epoch 18  train_acc 0.570  val_acc 0.411  val_loss 1.761
+  epoch 19  train_acc 0.577  val_acc 0.417  val_loss 1.768
+  epoch 20  train_acc 0.586  val_acc 0.413  val_loss 1.797
+  epoch 21  train_acc 0.593  val_acc 0.413  val_loss 1.800
+  epoch 22  train_acc 0.597  val_acc 0.410  val_loss 1.825
+  epoch 23  train_acc 0.604  val_acc 0.411  val_loss 1.830
+  epoch 24  train_acc 0.612  val_acc 0.414  val_loss 1.834
+  epoch 25  train_acc 0.615  val_acc 0.408  val_loss 1.856
+  epoch 26  train_acc 0.616  val_acc 0.409  val_loss 1.862
+  epoch 27  train_acc 0.619  val_acc 0.413  val_loss 1.874
+  epoch 28  train_acc 0.621  val_acc 0.411  val_loss 1.875
+  epoch 29  train_acc 0.621  val_acc 0.413  val_loss 1.876
+  epoch 30  train_acc 0.621  val_acc 0.414  val_loss 1.877
+train grayscale cnn_matched seed 26003
+  epoch 01  train_acc 0.492  val_acc 0.482  val_loss 1.444
+  epoch 02  train_acc 0.575  val_acc 0.565  val_loss 1.242
+  epoch 03  train_acc 0.610  val_acc 0.599  val_loss 1.136
+  epoch 04  train_acc 0.644  val_acc 0.629  val_loss 1.071
+  epoch 05  train_acc 0.667  val_acc 0.644  val_loss 1.019
+  epoch 06  train_acc 0.703  val_acc 0.671  val_loss 0.952
+  epoch 07  train_acc 0.694  val_acc 0.661  val_loss 0.979
+  epoch 08  train_acc 0.701  val_acc 0.664  val_loss 0.972
+  epoch 09  train_acc 0.728  val_acc 0.677  val_loss 0.935
+  epoch 10  train_acc 0.750  val_acc 0.703  val_loss 0.885
+  epoch 11  train_acc 0.762  val_acc 0.700  val_loss 0.875
+  epoch 12  train_acc 0.757  val_acc 0.688  val_loss 0.901
+  epoch 13  train_acc 0.779  val_acc 0.715  val_loss 0.855
+  epoch 14  train_acc 0.770  val_acc 0.699  val_loss 0.907
+  epoch 15  train_acc 0.769  val_acc 0.699  val_loss 0.896
+  epoch 16  train_acc 0.786  val_acc 0.706  val_loss 0.888
+  epoch 17  train_acc 0.802  val_acc 0.713  val_loss 0.872
+  epoch 18  train_acc 0.809  val_acc 0.716  val_loss 0.856
+  epoch 19  train_acc 0.810  val_acc 0.720  val_loss 0.865
+  epoch 20  train_acc 0.814  val_acc 0.713  val_loss 0.881
+  epoch 21  train_acc 0.819  val_acc 0.717  val_loss 0.864
+  epoch 22  train_acc 0.828  val_acc 0.722  val_loss 0.868
+  epoch 23  train_acc 0.831  val_acc 0.722  val_loss 0.864
+  epoch 24  train_acc 0.833  val_acc 0.722  val_loss 0.871
+  epoch 25  train_acc 0.836  val_acc 0.725  val_loss 0.867
+  epoch 26  train_acc 0.841  val_acc 0.727  val_loss 0.867
+  epoch 27  train_acc 0.839  val_acc 0.726  val_loss 0.868
+  epoch 28  train_acc 0.841  val_acc 0.729  val_loss 0.865
+  epoch 29  train_acc 0.843  val_acc 0.729  val_loss 0.866
+  epoch 30  train_acc 0.844  val_acc 0.729  val_loss 0.866
+train grayscale cnn_matched seed 26004
+  epoch 01  train_acc 0.393  val_acc 0.379  val_loss 1.675
+  epoch 02  train_acc 0.446  val_acc 0.436  val_loss 1.567
+  epoch 03  train_acc 0.505  val_acc 0.491  val_loss 1.414
+  epoch 04  train_acc 0.553  val_acc 0.544  val_loss 1.314
+  epoch 05  train_acc 0.565  val_acc 0.554  val_loss 1.280
+  epoch 06  train_acc 0.581  val_acc 0.572  val_loss 1.248
+  epoch 07  train_acc 0.603  val_acc 0.587  val_loss 1.191
+  epoch 08  train_acc 0.592  val_acc 0.583  val_loss 1.210
+  epoch 09  train_acc 0.607  val_acc 0.595  val_loss 1.178
+  epoch 10  train_acc 0.619  val_acc 0.606  val_loss 1.151
+  epoch 11  train_acc 0.623  val_acc 0.602  val_loss 1.148
+  epoch 12  train_acc 0.632  val_acc 0.620  val_loss 1.118
+  epoch 13  train_acc 0.628  val_acc 0.608  val_loss 1.126
+  epoch 14  train_acc 0.646  val_acc 0.625  val_loss 1.092
+  epoch 15  train_acc 0.657  val_acc 0.639  val_loss 1.072
+  epoch 16  train_acc 0.647  val_acc 0.620  val_loss 1.103
+  epoch 17  train_acc 0.660  val_acc 0.632  val_loss 1.065
+  epoch 18  train_acc 0.652  val_acc 0.630  val_loss 1.081
+  epoch 19  train_acc 0.659  val_acc 0.633  val_loss 1.064
+  epoch 20  train_acc 0.659  val_acc 0.629  val_loss 1.070
+  epoch 21  train_acc 0.669  val_acc 0.639  val_loss 1.055
+  epoch 22  train_acc 0.670  val_acc 0.640  val_loss 1.055
+  epoch 23  train_acc 0.674  val_acc 0.646  val_loss 1.045
+  epoch 24  train_acc 0.676  val_acc 0.645  val_loss 1.043
+  epoch 25  train_acc 0.676  val_acc 0.647  val_loss 1.038
+  epoch 26  train_acc 0.677  val_acc 0.646  val_loss 1.034
+  epoch 27  train_acc 0.679  val_acc 0.646  val_loss 1.032
+  epoch 28  train_acc 0.680  val_acc 0.647  val_loss 1.030
+  epoch 29  train_acc 0.680  val_acc 0.652  val_loss 1.028
+  epoch 30  train_acc 0.681  val_acc 0.650  val_loss 1.027
+train grayscale cnn_matched seed 26005
+  epoch 01  train_acc 0.313  val_acc 0.312  val_loss 1.867
+  epoch 02  train_acc 0.354  val_acc 0.361  val_loss 1.778
+  epoch 03  train_acc 0.381  val_acc 0.388  val_loss 1.707
+  epoch 04  train_acc 0.391  val_acc 0.399  val_loss 1.693
+  epoch 05  train_acc 0.416  val_acc 0.415  val_loss 1.614
+  epoch 06  train_acc 0.437  val_acc 0.445  val_loss 1.578
+  epoch 07  train_acc 0.430  val_acc 0.433  val_loss 1.587
+  epoch 08  train_acc 0.446  val_acc 0.449  val_loss 1.549
+  epoch 09  train_acc 0.430  val_acc 0.437  val_loss 1.561
+  epoch 10  train_acc 0.457  val_acc 0.463  val_loss 1.532
+  epoch 11  train_acc 0.463  val_acc 0.472  val_loss 1.507
+  epoch 12  train_acc 0.464  val_acc 0.469  val_loss 1.510
+  epoch 13  train_acc 0.463  val_acc 0.459  val_loss 1.512
+  epoch 14  train_acc 0.459  val_acc 0.450  val_loss 1.530
+  epoch 15  train_acc 0.472  val_acc 0.468  val_loss 1.510
+  epoch 16  train_acc 0.478  val_acc 0.472  val_loss 1.484
+  epoch 17  train_acc 0.478  val_acc 0.482  val_loss 1.484
+  epoch 18  train_acc 0.484  val_acc 0.483  val_loss 1.473
+  epoch 19  train_acc 0.477  val_acc 0.471  val_loss 1.484
+  epoch 20  train_acc 0.483  val_acc 0.486  val_loss 1.470
+  epoch 21  train_acc 0.487  val_acc 0.485  val_loss 1.471
+  epoch 22  train_acc 0.486  val_acc 0.484  val_loss 1.467
+  epoch 23  train_acc 0.492  val_acc 0.489  val_loss 1.454
+  epoch 24  train_acc 0.490  val_acc 0.484  val_loss 1.455
+  epoch 25  train_acc 0.491  val_acc 0.489  val_loss 1.452
+  epoch 26  train_acc 0.494  val_acc 0.490  val_loss 1.449
+  epoch 27  train_acc 0.495  val_acc 0.487  val_loss 1.447
+  epoch 28  train_acc 0.493  val_acc 0.490  val_loss 1.449
+  epoch 29  train_acc 0.495  val_acc 0.488  val_loss 1.448
+  epoch 30  train_acc 0.495  val_acc 0.488  val_loss 1.447
+Files already downloaded and verified
+Files already downloaded and verified
+test clean mlp_matched seed 26003  acc 0.5056
+test clean mlp_matched seed 26004  acc 0.5023
+test clean mlp_matched seed 26005  acc 0.5052
+test clean cnn_matched seed 26003  acc 0.7612
+test clean cnn_matched seed 26004  acc 0.7507
+test clean cnn_matched seed 26005  acc 0.7044
+test permuted mlp_matched seed 26003  acc 0.5013
+test permuted mlp_matched seed 26004  acc 0.5039
+test permuted mlp_matched seed 26005  acc 0.4982
+test permuted cnn_matched seed 26003  acc 0.5158
+test permuted cnn_matched seed 26004  acc 0.4816
+test permuted cnn_matched seed 26005  acc 0.4593
+test grayscale mlp_matched seed 26003  acc 0.4138
+test grayscale mlp_matched seed 26004  acc 0.4236
+test grayscale mlp_matched seed 26005  acc 0.4185
+test grayscale cnn_matched seed 26003  acc 0.7146
+test grayscale cnn_matched seed 26004  acc 0.6448
+test grayscale cnn_matched seed 26005  acc 0.4765
+Q2 figures written under /scratch/m26csa003/ML_assignment_3/figures/q2
+Q2 finished.
+Q3 on cuda:0 (NVIDIA A30)
+plan q3_plan.json sha256 364b14f2c9f853b4e6443e90c6883c05667630404dafc9997d18b6c0ff492d97
+Files already downloaded and verified
+Files already downloaded and verified
+train probe bottleneck 128 lr 0.0003
+  epoch 01  train_mse 0.03337  val_mse 0.01939
+  epoch 02  train_mse 0.01712  val_mse 0.01523
+  epoch 03  train_mse 0.01455  val_mse 0.01383
+  epoch 04  train_mse 0.01366  val_mse 0.01340
+train probe bottleneck 128 lr 0.001
+  epoch 01  train_mse 0.02567  val_mse 0.01472
+  epoch 02  train_mse 0.01303  val_mse 0.01160
+  epoch 03  train_mse 0.01097  val_mse 0.01036
+  epoch 04  train_mse 0.01017  val_mse 0.00997
+train probe bottleneck 128 lr 0.003
+  epoch 01  train_mse 0.02468  val_mse 0.01413
+  epoch 02  train_mse 0.01240  val_mse 0.01137
+  epoch 03  train_mse 0.01047  val_mse 0.00997
+  epoch 04  train_mse 0.00965  val_mse 0.00939
+chosen autoencoder lr 0.003
+train clean bottleneck 32 lr 0.003
+  epoch 01  train_mse 0.02402  val_mse 0.01427
+  epoch 02  train_mse 0.01346  val_mse 0.01292
+  epoch 03  train_mse 0.01261  val_mse 0.01247
+  epoch 04  train_mse 0.01239  val_mse 0.01224
+  epoch 05  train_mse 0.01217  val_mse 0.01217
+  epoch 06  train_mse 0.01204  val_mse 0.01196
+  epoch 07  train_mse 0.01193  val_mse 0.01187
+  epoch 08  train_mse 0.01186  val_mse 0.01180
+  epoch 09  train_mse 0.01180  val_mse 0.01180
+  epoch 10  train_mse 0.01174  val_mse 0.01174
+  epoch 11  train_mse 0.01169  val_mse 0.01168
+  epoch 12  train_mse 0.01164  val_mse 0.01165
+  epoch 13  train_mse 0.01160  val_mse 0.01164
+  epoch 14  train_mse 0.01156  val_mse 0.01162
+  epoch 15  train_mse 0.01153  val_mse 0.01158
+  epoch 16  train_mse 0.01150  val_mse 0.01157
+  epoch 17  train_mse 0.01147  val_mse 0.01155
+  epoch 18  train_mse 0.01145  val_mse 0.01154
+  epoch 19  train_mse 0.01144  val_mse 0.01153
+  epoch 20  train_mse 0.01143  val_mse 0.01152
+train clean bottleneck 128 lr 0.003
+  epoch 01  train_mse 0.02468  val_mse 0.01413
+  epoch 02  train_mse 0.01236  val_mse 0.01099
+  epoch 03  train_mse 0.01036  val_mse 0.00947
+  epoch 04  train_mse 0.00900  val_mse 0.00840
+  epoch 05  train_mse 0.00814  val_mse 0.00779
+  epoch 06  train_mse 0.00758  val_mse 0.00741
+  epoch 07  train_mse 0.00717  val_mse 0.00710
+  epoch 08  train_mse 0.00684  val_mse 0.00679
+  epoch 09  train_mse 0.00658  val_mse 0.00642
+  epoch 10  train_mse 0.00634  val_mse 0.00626
+  epoch 11  train_mse 0.00615  val_mse 0.00621
+  epoch 12  train_mse 0.00600  val_mse 0.00597
+  epoch 13  train_mse 0.00588  val_mse 0.00589
+  epoch 14  train_mse 0.00578  val_mse 0.00578
+  epoch 15  train_mse 0.00570  val_mse 0.00571
+  epoch 16  train_mse 0.00563  val_mse 0.00565
+  epoch 17  train_mse 0.00558  val_mse 0.00562
+  epoch 18  train_mse 0.00554  val_mse 0.00559
+  epoch 19  train_mse 0.00552  val_mse 0.00558
+  epoch 20  train_mse 0.00550  val_mse 0.00557
+train clean bottleneck 512 lr 0.003
+  epoch 01  train_mse 0.02326  val_mse 0.01343
+  epoch 02  train_mse 0.01156  val_mse 0.01000
+  epoch 03  train_mse 0.00934  val_mse 0.00864
+  epoch 04  train_mse 0.00825  val_mse 0.00775
+  epoch 05  train_mse 0.00755  val_mse 0.00717
+  epoch 06  train_mse 0.00704  val_mse 0.00679
+  epoch 07  train_mse 0.00660  val_mse 0.00641
+  epoch 08  train_mse 0.00623  val_mse 0.00612
+  epoch 09  train_mse 0.00593  val_mse 0.00585
+  epoch 10  train_mse 0.00568  val_mse 0.00564
+  epoch 11  train_mse 0.00548  val_mse 0.00590
+  epoch 12  train_mse 0.00530  val_mse 0.00532
+  epoch 13  train_mse 0.00514  val_mse 0.00519
+  epoch 14  train_mse 0.00502  val_mse 0.00507
+  epoch 15  train_mse 0.00491  val_mse 0.00498
+  epoch 16  train_mse 0.00482  val_mse 0.00491
+  epoch 17  train_mse 0.00475  val_mse 0.00486
+  epoch 18  train_mse 0.00470  val_mse 0.00482
+  epoch 19  train_mse 0.00467  val_mse 0.00480
+  epoch 20  train_mse 0.00465  val_mse 0.00479
+selected bottleneck 512
+Files already downloaded and verified
+Files already downloaded and verified
+selected test mse 0.00483
+train denoising bottleneck 512 lr 0.003
+  epoch 01  train_mse 0.02599  val_mse 0.01496
+  epoch 02  train_mse 0.01360  val_mse 0.01243
+  epoch 03  train_mse 0.01185  val_mse 0.01120
+  epoch 04  train_mse 0.01076  val_mse 0.01054
+  epoch 05  train_mse 0.01008  val_mse 0.00968
+  epoch 06  train_mse 0.00962  val_mse 0.00934
+  epoch 07  train_mse 0.00921  val_mse 0.00907
+  epoch 08  train_mse 0.00889  val_mse 0.00880
+  epoch 09  train_mse 0.00863  val_mse 0.00852
+  epoch 10  train_mse 0.00842  val_mse 0.00839
+  epoch 11  train_mse 0.00823  val_mse 0.00816
+  epoch 12  train_mse 0.00807  val_mse 0.00807
+  epoch 13  train_mse 0.00793  val_mse 0.00795
+  epoch 14  train_mse 0.00783  val_mse 0.00782
+  epoch 15  train_mse 0.00772  val_mse 0.00772
+  epoch 16  train_mse 0.00764  val_mse 0.00765
+  epoch 17  train_mse 0.00757  val_mse 0.00759
+  epoch 18  train_mse 0.00751  val_mse 0.00755
+  epoch 19  train_mse 0.00748  val_mse 0.00752
+  epoch 20  train_mse 0.00746  val_mse 0.00751
+Files already downloaded and verified
+Files already downloaded and verified
+classify clean  acc 0.7612  mse 0.00000
+classify corrupted  acc 0.1670  mse 0.04839
+classify clean_ae_of_corrupted  acc 0.3345  mse 0.00974
+classify denoising_ae_of_corrupted  acc 0.3296  mse 0.00757
+Files already downloaded and verified
+Files already downloaded and verified
+probe clean b32  test_mse 0.01160  probe_test 0.3640
+/opt/ohpc/apps/python/3.10.pytorch/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:460: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+/opt/ohpc/apps/python/3.10.pytorch/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:460: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+/opt/ohpc/apps/python/3.10.pytorch/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:460: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+probe clean b128  test_mse 0.00563  probe_test 0.4438
+/opt/ohpc/apps/python/3.10.pytorch/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:460: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+/opt/ohpc/apps/python/3.10.pytorch/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:460: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+/opt/ohpc/apps/python/3.10.pytorch/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:460: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+/opt/ohpc/apps/python/3.10.pytorch/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:460: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+probe clean b512  test_mse 0.00483  probe_test 0.5453
+/opt/ohpc/apps/python/3.10.pytorch/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:460: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+/opt/ohpc/apps/python/3.10.pytorch/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:460: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+/opt/ohpc/apps/python/3.10.pytorch/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:460: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+/opt/ohpc/apps/python/3.10.pytorch/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:460: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+Q3 figures written under /scratch/m26csa003/ML_assignment_3/figures/q3
+Q3 finished.
+plan q4_plan.json sha256 e3584ed8b7d3eed71a6cb124b9ad4c49cb78c667f9c854a8693d4956b3f368ce
+Files already downloaded and verified
+Files already downloaded and verified
+subset 2000 training rows
+Files already downloaded and verified
+Files already downloaded and verified
+features written, cnn seed 26003, dim 160
+fit kernel linear C 0.01
+  train 0.909  val 0.730  sv 0.678
+fit kernel linear C 0.1
+  train 0.975  val 0.719  sv 0.539
+fit kernel linear C 1.0
+  train 0.998  val 0.709  sv 0.507
+fit kernel linear C 10.0
+  train 1.000  val 0.710  sv 0.503
+fit kernel linear C 100.0
+  train 1.000  val 0.710  sv 0.503
+fit kernel poly C 0.01
+  train 0.715  val 0.640  sv 0.935
+fit kernel poly C 0.1
+  train 0.917  val 0.725  sv 0.761
+fit kernel poly C 1.0
+  train 0.999  val 0.734  sv 0.685
+fit kernel poly C 10.0
+  train 1.000  val 0.726  sv 0.686
+fit kernel poly C 100.0
+  train 1.000  val 0.726  sv 0.686
+fit kernel rbf C 0.01
+  train 0.693  val 0.609  sv 1.000
+fit kernel rbf C 0.1
+  train 0.754  val 0.652  sv 0.969
+fit kernel rbf C 1.0
+  train 0.959  val 0.728  sv 0.814
+fit kernel rbf C 10.0
+  train 1.000  val 0.733  sv 0.809
+fit kernel rbf C 100.0
+  train 1.000  val 0.733  sv 0.809
+refit selected poly C 1.0
+selected poly C 1.0 val 0.7340
+svm test accuracy 0.7235
+Q4 figures written under /scratch/m26csa003/ML_assignment_3/figures/q4
+Traceback (most recent call last):
+  File "/scratch/m26csa003/ML_assignment_3/scripts/q4_train.py", line 16, in <module>
+    main()
+  File "/scratch/m26csa003/ML_assignment_3/src/q4/pipeline.py", line 395, in main
+    hard_pairs(plan, clf, subset_x, subset_y, subset, test_x, test_y, test_payload, root)
+  File "/scratch/m26csa003/ML_assignment_3/src/q4/pipeline.py", line 249, in hard_pairs
+    ranked = _pair_difficulty(confusion)[: int(plan["n_hard_pairs"])]
+KeyError: 'n_hard_pairs'

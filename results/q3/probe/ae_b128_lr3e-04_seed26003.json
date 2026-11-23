@@ -1,0 +1,18 @@
+{
+  "question": "Q3",
+  "role": "probe",
+  "bottleneck": 128,
+  "seed": 26003,
+  "lr": 0.0003,
+  "noise_sigma": 0.0,
+  "epochs_requested": 4,
+  "epochs_trained": 4,
+  "parameters": 661155,
+  "best_epoch": 4,
+  "best_val_mse": 0.01340436082482338,
+  "failed": false,
+  "seconds": 17.873876810073853,
+  "plan_sha256": "364b14f2c9f853b4e6443e90c6883c05667630404dafc9997d18b6c0ff492d97",
+  "history_csv": "/scratch/m26csa003/ML_assignment_3/results/q3/probe/ae_b128_lr3e-04_seed26003.csv",
+  "checkpoint": "/scratch/m26csa003/ML_assignment_3/results/q3/checkpoints/probe_b128_lr3e-04.pt"
+}

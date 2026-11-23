@@ -1,0 +1,125 @@
+{
+  "rows": [
+    {
+      "kernel": "linear",
+      "C": 0.01,
+      "train_accuracy": 0.9095,
+      "val_accuracy": 0.7296,
+      "support_fraction": 0.678,
+      "n_support": 1356
+    },
+    {
+      "kernel": "linear",
+      "C": 0.1,
+      "train_accuracy": 0.9745,
+      "val_accuracy": 0.719,
+      "support_fraction": 0.5395,
+      "n_support": 1079
+    },
+    {
+      "kernel": "linear",
+      "C": 1.0,
+      "train_accuracy": 0.998,
+      "val_accuracy": 0.7086,
+      "support_fraction": 0.507,
+      "n_support": 1014
+    },
+    {
+      "kernel": "linear",
+      "C": 10.0,
+      "train_accuracy": 1.0,
+      "val_accuracy": 0.7096,
+      "support_fraction": 0.503,
+      "n_support": 1006
+    },
+    {
+      "kernel": "linear",
+      "C": 100.0,
+      "train_accuracy": 1.0,
+      "val_accuracy": 0.7096,
+      "support_fraction": 0.503,
+      "n_support": 1006
+    },
+    {
+      "kernel": "poly",
+      "C": 0.01,
+      "train_accuracy": 0.7145,
+      "val_accuracy": 0.6402,
+      "support_fraction": 0.9355,
+      "n_support": 1871
+    },
+    {
+      "kernel": "poly",
+      "C": 0.1,
+      "train_accuracy": 0.917,
+      "val_accuracy": 0.7254,
+      "support_fraction": 0.761,
+      "n_support": 1522
+    },
+    {
+      "kernel": "poly",
+      "C": 1.0,
+      "train_accuracy": 0.999,
+      "val_accuracy": 0.734,
+      "support_fraction": 0.6855,
+      "n_support": 1371
+    },
+    {
+      "kernel": "poly",
+      "C": 10.0,
+      "train_accuracy": 1.0,
+      "val_accuracy": 0.7256,
+      "support_fraction": 0.686,
+      "n_support": 1372
+    },
+    {
+      "kernel": "poly",
+      "C": 100.0,
+      "train_accuracy": 1.0,
+      "val_accuracy": 0.7256,
+      "support_fraction": 0.686,
+      "n_support": 1372
+    },
+    {
+      "kernel": "rbf",
+      "C": 0.01,
+      "train_accuracy": 0.693,
+      "val_accuracy": 0.609,
+      "support_fraction": 1.0,
+      "n_support": 2000
+    },
+    {
+      "kernel": "rbf",
+      "C": 0.1,
+      "train_accuracy": 0.754,
+      "val_accuracy": 0.6518,
+      "support_fraction": 0.969,
+      "n_support": 1938
+    },
+    {
+      "kernel": "rbf",
+      "C": 1.0,
+      "train_accuracy": 0.959,
+      "val_accuracy": 0.7284,
+      "support_fraction": 0.814,
+      "n_support": 1628
+    },
+    {
+      "kernel": "rbf",
+      "C": 10.0,
+      "train_accuracy": 1.0,
+      "val_accuracy": 0.7328,
+      "support_fraction": 0.8095,
+      "n_support": 1619
+    },
+    {
+      "kernel": "rbf",
+      "C": 100.0,
+      "train_accuracy": 1.0,
+      "val_accuracy": 0.7328,
+      "support_fraction": 0.8095,
+      "n_support": 1619
+    }
+  ],
+  "question": "Q4a"
+}

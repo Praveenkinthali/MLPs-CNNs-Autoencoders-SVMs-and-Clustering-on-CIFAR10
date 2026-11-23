@@ -1,0 +1,20 @@
+{
+  "model": "mlp_matched",
+  "question": "Q2",
+  "architecture_introduced_in": "Q1a",
+  "condition": "permuted",
+  "seed": 26005,
+  "lr": 0.003,
+  "weight_decay": 0.0001,
+  "epochs_requested": 30,
+  "epochs_trained": 30,
+  "parameters": 201482,
+  "best_epoch": 20,
+  "best_val_accuracy": 0.5094,
+  "train_accuracy_at_best_val": 0.7059555555555556,
+  "failed": false,
+  "seconds": 37.009730100631714,
+  "plan_sha256": "05f9e2167be423321909e9243551e15263698eabfd48919cc97767bb4a318fce",
+  "history_csv": "/scratch/m26csa003/ML_assignment_3/results/q2/permuted/mlp_matched_seed26005.csv",
+  "checkpoint": "/scratch/m26csa003/ML_assignment_3/results/q2/checkpoints/permuted_mlp_matched_seed26005.pt"
+}

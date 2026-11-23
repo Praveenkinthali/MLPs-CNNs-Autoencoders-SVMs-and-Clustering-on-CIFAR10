@@ -1,0 +1,162 @@
+{
+  "question": "Q3c",
+  "rows": [
+    {
+      "role": "clean",
+      "bottleneck": 32,
+      "parameters": 267843,
+      "val_mse": 0.011524948126077652,
+      "test_mse": 0.01160273377597332,
+      "test_psnr": 19.354396725023474,
+      "probe_C": 0.01,
+      "probe_val_accuracy": 0.3668,
+      "probe_test_accuracy": 0.364,
+      "probe_sweep": [
+        {
+          "C": 0.01,
+          "train_accuracy": 0.3619777777777778,
+          "val_accuracy": 0.3668
+        },
+        {
+          "C": 0.1,
+          "train_accuracy": 0.361,
+          "val_accuracy": 0.3646
+        },
+        {
+          "C": 1.0,
+          "train_accuracy": 0.3609111111111111,
+          "val_accuracy": 0.3644
+        },
+        {
+          "C": 10.0,
+          "train_accuracy": 0.36086666666666667,
+          "val_accuracy": 0.3644
+        },
+        {
+          "C": 100.0,
+          "train_accuracy": 0.36086666666666667,
+          "val_accuracy": 0.3644
+        }
+      ],
+      "introduced_in": "Q3a"
+    },
+    {
+      "role": "clean",
+      "bottleneck": 128,
+      "parameters": 661155,
+      "val_mse": 0.005571107245981693,
+      "test_mse": 0.005626950844377279,
+      "test_psnr": 22.49726878716444,
+      "probe_C": 100.0,
+      "probe_val_accuracy": 0.4448,
+      "probe_test_accuracy": 0.4438,
+      "probe_sweep": [
+        {
+          "C": 0.01,
+          "train_accuracy": 0.4398666666666667,
+          "val_accuracy": 0.4284
+        },
+        {
+          "C": 0.1,
+          "train_accuracy": 0.45206666666666667,
+          "val_accuracy": 0.4436
+        },
+        {
+          "C": 1.0,
+          "train_accuracy": 0.4556222222222222,
+          "val_accuracy": 0.442
+        },
+        {
+          "C": 10.0,
+          "train_accuracy": 0.4557777777777778,
+          "val_accuracy": 0.4442
+        },
+        {
+          "C": 100.0,
+          "train_accuracy": 0.4557333333333333,
+          "val_accuracy": 0.4448
+        }
+      ],
+      "introduced_in": "Q3a"
+    },
+    {
+      "role": "clean",
+      "bottleneck": 512,
+      "parameters": 2234403,
+      "val_mse": 0.004788724665343761,
+      "test_mse": 0.004834359914064407,
+      "test_psnr": 23.156610198626957,
+      "probe_C": 1.0,
+      "probe_val_accuracy": 0.5504,
+      "probe_test_accuracy": 0.5453,
+      "probe_sweep": [
+        {
+          "C": 0.01,
+          "train_accuracy": 0.5399333333333334,
+          "val_accuracy": 0.5236
+        },
+        {
+          "C": 0.1,
+          "train_accuracy": 0.5672888888888888,
+          "val_accuracy": 0.5408
+        },
+        {
+          "C": 1.0,
+          "train_accuracy": 0.5831111111111111,
+          "val_accuracy": 0.5504
+        },
+        {
+          "C": 10.0,
+          "train_accuracy": 0.5850666666666666,
+          "val_accuracy": 0.5466
+        },
+        {
+          "C": 100.0,
+          "train_accuracy": 0.586,
+          "val_accuracy": 0.5462
+        }
+      ],
+      "introduced_in": "Q3a"
+    },
+    {
+      "role": "denoising",
+      "bottleneck": 512,
+      "parameters": 2234403,
+      "val_mse": 0.007511546476185322,
+      "test_mse": null,
+      "test_psnr": null,
+      "probe_C": 1.0,
+      "probe_val_accuracy": 0.5422,
+      "probe_test_accuracy": 0.5392,
+      "probe_sweep": [
+        {
+          "C": 0.01,
+          "train_accuracy": 0.5210888888888889,
+          "val_accuracy": 0.507
+        },
+        {
+          "C": 0.1,
+          "train_accuracy": 0.5484444444444444,
+          "val_accuracy": 0.534
+        },
+        {
+          "C": 1.0,
+          "train_accuracy": 0.5669111111111111,
+          "val_accuracy": 0.5422
+        },
+        {
+          "C": 10.0,
+          "train_accuracy": 0.5686222222222223,
+          "val_accuracy": 0.5394
+        },
+        {
+          "C": 100.0,
+          "train_accuracy": 0.5680666666666667,
+          "val_accuracy": 0.5382
+        }
+      ],
+      "introduced_in": "Q3b",
+      "note": "val_mse is the denoising objective on the frozen noisy validation set."
+    }
+  ]
+}

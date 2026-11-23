@@ -1,0 +1,5 @@
+fraction,best_epoch,best_val_accuracy,final_clean_accuracy,final_noise_fit,final_true_on_corrupted
+0.2,19,0.463400,0.815889,0.394667,0.136889
+0.5,6,0.318400,0.564800,0.284756,0.139200
+0.0,33,0.533600,0.917956,,
+1.0,3,0.100200,,0.102644,0.100000

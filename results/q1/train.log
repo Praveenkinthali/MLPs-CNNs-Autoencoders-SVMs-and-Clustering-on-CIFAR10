@@ -1,0 +1,39 @@
+job start Tue Nov 10 14:13:39 IST 2026 host cn05
+module loaded
+GPU 0: NVIDIA A30 (UUID: GPU-d0d36397-2495-f7c1-b6c0-eec00c986c93)
+Q1 on cuda:0 (NVIDIA A30)
+CUDA_VISIBLE_DEVICES=0
+fairness q1_fairness.json sha256 83592a28756f0a14e26ba972e6b82548e1af5ad2862d5af39b06ca7cba9ac09c
+Files already downloaded and verified
+Files already downloaded and verified
+probe mlp_matched lr 0.0003
+  epoch 01  train_acc 0.448  val_acc 0.438  val_loss 1.602
+  epoch 02  train_acc 0.486  val_acc 0.465  val_loss 1.532
+  epoch 03  train_acc 0.508  val_acc 0.481  val_loss 1.496
+  epoch 04  train_acc 0.520  val_acc 0.484  val_loss 1.476
+  epoch 05  train_acc 0.537  val_acc 0.499  val_loss 1.449
+  epoch 06  train_acc 0.545  val_acc 0.503  val_loss 1.441
+  epoch 07  train_acc 0.552  val_acc 0.505  val_loss 1.431
+  epoch 08  train_acc 0.554  val_acc 0.507  val_loss 1.430
+probe exists, reloading mlp_matched_lr0.json
+probe exists, reloading mlp_matched_lr0.json
+probe cnn_matched lr 0.0003
+  epoch 01  train_acc 0.415  val_acc 0.410  val_loss 1.603
+  epoch 02  train_acc 0.461  val_acc 0.453  val_loss 1.497
+  epoch 03  train_acc 0.505  val_acc 0.495  val_loss 1.394
+  epoch 04  train_acc 0.530  val_acc 0.517  val_loss 1.333
+  epoch 05  train_acc 0.553  val_acc 0.541  val_loss 1.288
+  epoch 06  train_acc 0.562  val_acc 0.551  val_loss 1.266
+  epoch 07  train_acc 0.571  val_acc 0.556  val_loss 1.247
+  epoch 08  train_acc 0.575  val_acc 0.561  val_loss 1.240
+probe exists, reloading cnn_matched_lr0.json
+probe exists, reloading cnn_matched_lr0.json
+Q1 figures written under /scratch/m26csa003/ML_assignment_3/figures/q1
+Traceback (most recent call last):
+  File "/scratch/m26csa003/ML_assignment_3/scripts/q1_train.py", line 23, in <module>
+    main()
+  File "/scratch/m26csa003/ML_assignment_3/src/q1/pipeline.py", line 537, in main
+    chosen_lr, scores, details = select_learning_rate(fairness, probe_summaries)
+  File "/scratch/m26csa003/ML_assignment_3/src/q1/pipeline.py", line 308, in select_learning_rate
+    raise RuntimeError(f"Expected one probe for {model_name} at {learning_rate}.")
+RuntimeError: Expected one probe for mlp_matched at 0.0003.

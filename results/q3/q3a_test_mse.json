@@ -1,0 +1,7 @@
+{
+  "question": "Q3a",
+  "bottleneck": 512,
+  "test_mse": 0.004834359914064407,
+  "test_psnr": 23.156610198626957,
+  "note": "Computed after q3a_selection.json. Not used to choose the bottleneck."
+}

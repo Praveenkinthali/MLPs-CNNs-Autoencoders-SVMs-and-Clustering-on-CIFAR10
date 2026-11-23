@@ -1,0 +1,19 @@
+# CIFAR-10 download. scripts/prepare_data.py fetches this again.
+data/
+
+# Local interpreter. The cluster module plus requirements.txt rebuilds it.
+.venv/
+
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Model weights are large. Logs, configs, splits and figures stay in the repo.
+*.pt
+*.pth
+checkpoints/
+
+.DS_Store
+
+# 184 MB. GitHub rejects files over 100 MB. Q3 redraws it from seed 26003.
+splits/q3_gaussian_noise_seed26003.npz

@@ -1,0 +1,10 @@
+{
+  "question": "Q4a",
+  "rule": "Highest validation accuracy. A tie keeps the smaller support-vector fraction, then the smaller C, then the kernel name in alphabetical order.",
+  "kernel": "poly",
+  "C": 1.0,
+  "val_accuracy": 0.734,
+  "train_accuracy": 0.999,
+  "support_fraction": 0.6855,
+  "note": "The test set was not scored while choosing this row."
+}

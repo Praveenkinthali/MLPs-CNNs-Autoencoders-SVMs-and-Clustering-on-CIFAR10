@@ -1,0 +1,11 @@
+{
+  "question": "shared data setup, before Q1",
+  "seed": 26003,
+  "python": "3.10.12",
+  "torch": "2.1.2+cu118",
+  "torchvision": "0.16.2+cu118",
+  "cuda_available": false,
+  "device": "cpu",
+  "hostname": "login.cse.iitj.ac.in",
+  "nondeterminism": "The split and the channel statistics depend only on the CIFAR-10 files and numpy Generator(26003). They do not depend on the GPU. cuDNN nondeterminism does not apply to this phase."
+}

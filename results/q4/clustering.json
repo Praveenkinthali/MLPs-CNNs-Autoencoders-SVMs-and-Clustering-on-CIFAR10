@@ -1,0 +1,263 @@
+{
+  "question": "Q4c",
+  "method": "KMeans",
+  "selection_rule": "Fit on the same 2,000 standardised training features, with no labels passed to KMeans. Score k by validation NMI. The higher NMI wins. A tie keeps the k closer to 10, then the smaller k. Test labels are used only after the test points have been assigned.",
+  "k_rows": [
+    {
+      "k": 5,
+      "val_nmi": 0.3574036237556769,
+      "val_ari": 0.24908494435526773,
+      "inertia": 154398.39842731023
+    },
+    {
+      "k": 8,
+      "val_nmi": 0.3511257733874669,
+      "val_ari": 0.2364908224548157,
+      "inertia": 144542.05238077044
+    },
+    {
+      "k": 10,
+      "val_nmi": 0.36221718883804194,
+      "val_ari": 0.2260597421105631,
+      "inertia": 140154.9116778288
+    },
+    {
+      "k": 12,
+      "val_nmi": 0.3541647047619211,
+      "val_ari": 0.21133281570325754,
+      "inertia": 136761.27344979238
+    },
+    {
+      "k": 15,
+      "val_nmi": 0.3570576984069966,
+      "val_ari": 0.21413180689838524,
+      "inertia": 133093.82662935826
+    },
+    {
+      "k": 20,
+      "val_nmi": 0.3525186002909282,
+      "val_ari": 0.18295996150071478,
+      "inertia": 128480.40142465588
+    }
+  ],
+  "chosen_k": 10,
+  "chosen_val_nmi": 0.36221718883804194,
+  "test_ari": 0.2284346764703447,
+  "test_nmi": 0.3613777984805836,
+  "test_majority_accuracy": 0.4604,
+  "svm_test_accuracy": 0.7235,
+  "contingency": [
+    [
+      6,
+      24,
+      53,
+      7,
+      20,
+      594,
+      50,
+      16,
+      2,
+      228
+    ],
+    [
+      3,
+      204,
+      26,
+      417,
+      6,
+      18,
+      27,
+      11,
+      1,
+      287
+    ],
+    [
+      14,
+      5,
+      268,
+      1,
+      306,
+      162,
+      35,
+      89,
+      71,
+      49
+    ],
+    [
+      22,
+      17,
+      555,
+      1,
+      46,
+      31,
+      9,
+      186,
+      92,
+      41
+    ],
+    [
+      144,
+      6,
+      246,
+      0,
+      419,
+      56,
+      3,
+      20,
+      79,
+      27
+    ],
+    [
+      49,
+      6,
+      438,
+      0,
+      54,
+      15,
+      4,
+      401,
+      21,
+      12
+    ],
+    [
+      2,
+      1,
+      163,
+      1,
+      154,
+      15,
+      17,
+      24,
+      605,
+      18
+    ],
+    [
+      518,
+      17,
+      197,
+      4,
+      64,
+      18,
+      2,
+      148,
+      12,
+      20
+    ],
+    [
+      1,
+      24,
+      34,
+      2,
+      6,
+      467,
+      42,
+      5,
+      2,
+      417
+    ],
+    [
+      5,
+      628,
+      50,
+      148,
+      5,
+      49,
+      7,
+      9,
+      1,
+      98
+    ]
+  ],
+  "majority_mapping_from_train": [
+    7,
+    9,
+    3,
+    1,
+    4,
+    0,
+    0,
+    5,
+    6,
+    8
+  ],
+  "per_class": [
+    {
+      "class_id": 0,
+      "class_name": "airplane",
+      "svm_recall": 0.766,
+      "cluster_recall": 0.644,
+      "svm_minus_cluster": 0.122
+    },
+    {
+      "class_id": 1,
+      "class_name": "automobile",
+      "svm_recall": 0.852,
+      "cluster_recall": 0.417,
+      "svm_minus_cluster": 0.435
+    },
+    {
+      "class_id": 2,
+      "class_name": "bird",
+      "svm_recall": 0.615,
+      "cluster_recall": 0.0,
+      "svm_minus_cluster": 0.615
+    },
+    {
+      "class_id": 3,
+      "class_name": "cat",
+      "svm_recall": 0.536,
+      "cluster_recall": 0.555,
+      "svm_minus_cluster": -0.019000000000000017
+    },
+    {
+      "class_id": 4,
+      "class_name": "deer",
+      "svm_recall": 0.689,
+      "cluster_recall": 0.419,
+      "svm_minus_cluster": 0.26999999999999996
+    },
+    {
+      "class_id": 5,
+      "class_name": "dog",
+      "svm_recall": 0.642,
+      "cluster_recall": 0.401,
+      "svm_minus_cluster": 0.241
+    },
+    {
+      "class_id": 6,
+      "class_name": "frog",
+      "svm_recall": 0.757,
+      "cluster_recall": 0.605,
+      "svm_minus_cluster": 0.15200000000000002
+    },
+    {
+      "class_id": 7,
+      "class_name": "horse",
+      "svm_recall": 0.742,
+      "cluster_recall": 0.518,
+      "svm_minus_cluster": 0.22399999999999998
+    },
+    {
+      "class_id": 8,
+      "class_name": "ship",
+      "svm_recall": 0.834,
+      "cluster_recall": 0.417,
+      "svm_minus_cluster": 0.417
+    },
+    {
+      "class_id": 9,
+      "class_name": "truck",
+      "svm_recall": 0.802,
+      "cluster_recall": 0.628,
+      "svm_minus_cluster": 0.17400000000000004
+    }
+  ],
+  "disagreement_class": {
+    "class_id": 2,
+    "class_name": "bird",
+    "svm_recall": 0.615,
+    "cluster_recall": 0.0,
+    "svm_minus_cluster": 0.615
+  },
+  "note": "KMeans never receives labels. The majority map is fit on the training subset. Test labels are used only for ARI, NMI, the contingency table and the recalls."
+}

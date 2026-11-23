@@ -1,0 +1,29 @@
+{
+  "question": "Q3a",
+  "rule": "If reconstruction error were the only criterion, choose the clean autoencoder with the lowest best validation MSE. A tie keeps the smaller bottleneck. The test set is not used for this choice.",
+  "chosen_bottleneck": 512,
+  "rows": [
+    {
+      "bottleneck": 32,
+      "parameters": 267843,
+      "best_val_mse": 0.011524948126077652,
+      "best_epoch": 20,
+      "checkpoint": "/scratch/m26csa003/ML_assignment_3/results/q3/checkpoints/clean_b32_seed26003.pt"
+    },
+    {
+      "bottleneck": 128,
+      "parameters": 661155,
+      "best_val_mse": 0.005571107245981693,
+      "best_epoch": 20,
+      "checkpoint": "/scratch/m26csa003/ML_assignment_3/results/q3/checkpoints/clean_b128_seed26003.pt"
+    },
+    {
+      "bottleneck": 512,
+      "parameters": 2234403,
+      "best_val_mse": 0.004788724665343761,
+      "best_epoch": 20,
+      "checkpoint": "/scratch/m26csa003/ML_assignment_3/results/q3/checkpoints/clean_b512_seed26003.pt"
+    }
+  ],
+  "note": "Test reconstruction error was not available when this choice was written."
+}

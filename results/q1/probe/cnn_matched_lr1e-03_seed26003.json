@@ -1,0 +1,21 @@
+{
+  "model": "cnn_matched",
+  "question": "Q1",
+  "first_introduced": "Q1",
+  "role": "lr_probe",
+  "seed": 26003,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "epochs_requested": 8,
+  "epochs_trained": 8,
+  "parameters": 197194,
+  "best_epoch": 8,
+  "best_val_accuracy": 0.6728,
+  "train_accuracy_at_best_val": 0.6948888888888889,
+  "val_loss_at_best_val": 0.9344392446994781,
+  "failed": false,
+  "seconds": 20.96967577934265,
+  "device": "NVIDIA A30",
+  "fairness_sha256": "83592a28756f0a14e26ba972e6b82548e1af5ad2862d5af39b06ca7cba9ac09c",
+  "history_csv": "/scratch/m26csa003/ML_assignment_3/results/q1/probe/cnn_matched_lr1e-03_seed26003.csv"
+}

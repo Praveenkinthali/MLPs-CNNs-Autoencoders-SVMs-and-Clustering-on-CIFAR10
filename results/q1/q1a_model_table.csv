@@ -1,0 +1,5 @@
+model,display_name,parameters,weight_decay,dropout,epochs,learning_rate,seeds,val_accuracy_mean,val_accuracy_std,test_accuracy_mean,test_accuracy_std
+mlp_matched,Matched MLP,201482,0.0001,0.0,30,0.003,3,0.515000,0.003105,0.504367,0.001801
+cnn_matched,Matched CNN,197194,0.0001,0.0,30,0.003,3,0.741933,0.031390,0.738767,0.030222
+mlp_wide,Wide MLP,1707274,0.0001,0.0,30,0.003,3,0.532733,0.005085,0.526667,0.002627
+mlp_regularised,Regularised MLP,201482,0.001,0.3,30,0.003,3,0.513667,0.003035,0.504600,0.003851

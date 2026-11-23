@@ -1,0 +1,21 @@
+{
+  "question": "Q3",
+  "rule": "Lowest best validation MSE on the middle bottleneck wins. The smaller learning rate wins a tie. A non-finite probe scores infinity.",
+  "rows": [
+    {
+      "lr": 0.0003,
+      "best_val_mse": 0.01340436082482338
+    },
+    {
+      "lr": 0.001,
+      "best_val_mse": 0.00997044882774353
+    },
+    {
+      "lr": 0.003,
+      "best_val_mse": 0.009392965516448021
+    }
+  ],
+  "chosen_lr": 0.003,
+  "plan_sha256": "364b14f2c9f853b4e6443e90c6883c05667630404dafc9997d18b6c0ff492d97",
+  "note": "Chosen from clean validation MSE of the middle bottleneck only."
+}

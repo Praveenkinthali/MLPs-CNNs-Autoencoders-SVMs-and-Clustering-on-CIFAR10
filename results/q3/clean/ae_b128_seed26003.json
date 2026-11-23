@@ -1,0 +1,18 @@
+{
+  "question": "Q3",
+  "role": "clean",
+  "bottleneck": 128,
+  "seed": 26003,
+  "lr": 0.003,
+  "noise_sigma": 0.0,
+  "epochs_requested": 20,
+  "epochs_trained": 20,
+  "parameters": 661155,
+  "best_epoch": 20,
+  "best_val_mse": 0.005571107245981693,
+  "failed": false,
+  "seconds": 77.97021532058716,
+  "plan_sha256": "364b14f2c9f853b4e6443e90c6883c05667630404dafc9997d18b6c0ff492d97",
+  "history_csv": "/scratch/m26csa003/ML_assignment_3/results/q3/clean/ae_b128_seed26003.csv",
+  "checkpoint": "/scratch/m26csa003/ML_assignment_3/results/q3/checkpoints/clean_b128_seed26003.pt"
+}

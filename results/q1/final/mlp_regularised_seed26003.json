@@ -1,0 +1,22 @@
+{
+  "model": "mlp_regularised",
+  "question": "Q1",
+  "first_introduced": "Q1",
+  "role": "final",
+  "seed": 26003,
+  "lr": 0.003,
+  "weight_decay": 0.001,
+  "epochs_requested": 30,
+  "epochs_trained": 30,
+  "parameters": 201482,
+  "best_epoch": 26,
+  "best_val_accuracy": 0.5164,
+  "train_accuracy_at_best_val": 0.5731555555555555,
+  "val_loss_at_best_val": 1.4064308404922485,
+  "failed": false,
+  "seconds": 52.377514123916626,
+  "device": "NVIDIA A30",
+  "fairness_sha256": "83592a28756f0a14e26ba972e6b82548e1af5ad2862d5af39b06ca7cba9ac09c",
+  "history_csv": "/scratch/m26csa003/ML_assignment_3/results/q1/final/mlp_regularised_seed26003.csv",
+  "checkpoint": "/scratch/m26csa003/ML_assignment_3/results/q1/checkpoints/mlp_regularised_seed26003.pt"
+}

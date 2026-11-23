@@ -1,0 +1,368 @@
+{
+  "question": "Q4b",
+  "pairs": [
+    {
+      "class_i": 3,
+      "class_j": 5,
+      "class_i_name": "cat",
+      "class_j_name": "dog",
+      "test_confusions": 358,
+      "test_pair_count": 2000,
+      "error_rate": 0.179,
+      "positive_class": 3,
+      "positive_class_name": "cat",
+      "score_note": "The OvO column. positive_class is the class with the higher mean score on the training subset.",
+      "support_vectors": [
+        {
+          "subset_row": 1963,
+          "train_row": 44093,
+          "label": 5,
+          "dual_abs": 1.0
+        },
+        {
+          "subset_row": 375,
+          "train_row": 8229,
+          "label": 3,
+          "dual_abs": 1.0
+        },
+        {
+          "subset_row": 749,
+          "train_row": 17075,
+          "label": 5,
+          "dual_abs": 1.0
+        },
+        {
+          "subset_row": 763,
+          "train_row": 17372,
+          "label": 5,
+          "dual_abs": 1.0
+        },
+        {
+          "subset_row": 796,
+          "train_row": 18037,
+          "label": 5,
+          "dual_abs": 1.0
+        },
+        {
+          "subset_row": 1474,
+          "train_row": 33432,
+          "label": 3,
+          "dual_abs": 1.0
+        },
+        {
+          "subset_row": 787,
+          "train_row": 17835,
+          "label": 5,
+          "dual_abs": 1.0
+        },
+        {
+          "subset_row": 550,
+          "train_row": 12408,
+          "label": 5,
+          "dual_abs": 1.0
+        }
+      ],
+      "nearest_test": [
+        {
+          "test_index": 3808,
+          "label": 5,
+          "predicted": 2,
+          "decision_score": 0.0013579100923000742,
+          "correct": false
+        },
+        {
+          "test_index": 7475,
+          "label": 3,
+          "predicted": 5,
+          "decision_score": -0.002110231678783714,
+          "correct": false
+        },
+        {
+          "test_index": 4976,
+          "label": 5,
+          "predicted": 5,
+          "decision_score": -0.002139971054144485,
+          "correct": true
+        },
+        {
+          "test_index": 9363,
+          "label": 5,
+          "predicted": 3,
+          "decision_score": 0.0021588420922584173,
+          "correct": false
+        },
+        {
+          "test_index": 3959,
+          "label": 5,
+          "predicted": 5,
+          "decision_score": -0.002159363680270754,
+          "correct": true
+        },
+        {
+          "test_index": 4224,
+          "label": 5,
+          "predicted": 5,
+          "decision_score": -0.0027427919216828633,
+          "correct": true
+        },
+        {
+          "test_index": 6444,
+          "label": 3,
+          "predicted": 5,
+          "decision_score": -0.002844475217655462,
+          "correct": false
+        },
+        {
+          "test_index": 6023,
+          "label": 5,
+          "predicted": 3,
+          "decision_score": 0.0031795613729591055,
+          "correct": false
+        }
+      ],
+      "n_support_vectors": 222
+    },
+    {
+      "class_i": 2,
+      "class_j": 4,
+      "class_i_name": "bird",
+      "class_j_name": "deer",
+      "test_confusions": 178,
+      "test_pair_count": 2000,
+      "error_rate": 0.089,
+      "positive_class": 2,
+      "positive_class_name": "bird",
+      "score_note": "The OvO column. positive_class is the class with the higher mean score on the training subset.",
+      "support_vectors": [
+        {
+          "subset_row": 1499,
+          "train_row": 33960,
+          "label": 4,
+          "dual_abs": 1.0
+        },
+        {
+          "subset_row": 157,
+          "train_row": 3431,
+          "label": 4,
+          "dual_abs": 1.0
+        },
+        {
+          "subset_row": 452,
+          "train_row": 10060,
+          "label": 4,
+          "dual_abs": 1.0
+        },
+        {
+          "subset_row": 492,
+          "train_row": 10940,
+          "label": 4,
+          "dual_abs": 1.0
+        },
+        {
+          "subset_row": 1072,
+          "train_row": 24318,
+          "label": 4,
+          "dual_abs": 1.0
+        },
+        {
+          "subset_row": 653,
+          "train_row": 14842,
+          "label": 4,
+          "dual_abs": 1.0
+        },
+        {
+          "subset_row": 578,
+          "train_row": 13323,
+          "label": 4,
+          "dual_abs": 1.0
+        },
+        {
+          "subset_row": 1063,
+          "train_row": 24085,
+          "label": 2,
+          "dual_abs": 1.0
+        }
+      ],
+      "nearest_test": [
+        {
+          "test_index": 1868,
+          "label": 2,
+          "predicted": 5,
+          "decision_score": -7.562767881449939e-05,
+          "correct": false
+        },
+        {
+          "test_index": 70,
+          "label": 2,
+          "predicted": 8,
+          "decision_score": 0.0003562692245403787,
+          "correct": false
+        },
+        {
+          "test_index": 1724,
+          "label": 4,
+          "predicted": 2,
+          "decision_score": 0.0009406010677051463,
+          "correct": false
+        },
+        {
+          "test_index": 7562,
+          "label": 2,
+          "predicted": 3,
+          "decision_score": 0.001142898147051083,
+          "correct": false
+        },
+        {
+          "test_index": 5658,
+          "label": 4,
+          "predicted": 2,
+          "decision_score": 0.0018119112806562754,
+          "correct": false
+        },
+        {
+          "test_index": 8452,
+          "label": 4,
+          "predicted": 4,
+          "decision_score": -0.0023342029910542877,
+          "correct": true
+        },
+        {
+          "test_index": 2655,
+          "label": 4,
+          "predicted": 2,
+          "decision_score": 0.005947483636957726,
+          "correct": false
+        },
+        {
+          "test_index": 138,
+          "label": 2,
+          "predicted": 4,
+          "decision_score": -0.0060103770166111264,
+          "correct": false
+        }
+      ],
+      "n_support_vectors": 171
+    },
+    {
+      "class_i": 0,
+      "class_j": 8,
+      "class_i_name": "airplane",
+      "class_j_name": "ship",
+      "test_confusions": 146,
+      "test_pair_count": 2000,
+      "error_rate": 0.073,
+      "positive_class": 0,
+      "positive_class_name": "airplane",
+      "score_note": "The OvO column. positive_class is the class with the higher mean score on the training subset.",
+      "support_vectors": [
+        {
+          "subset_row": 94,
+          "train_row": 1938,
+          "label": 0,
+          "dual_abs": 1.0
+        },
+        {
+          "subset_row": 458,
+          "train_row": 10178,
+          "label": 0,
+          "dual_abs": 1.0
+        },
+        {
+          "subset_row": 85,
+          "train_row": 1812,
+          "label": 8,
+          "dual_abs": 1.0
+        },
+        {
+          "subset_row": 1909,
+          "train_row": 42992,
+          "label": 8,
+          "dual_abs": 0.9960825885303576
+        },
+        {
+          "subset_row": 95,
+          "train_row": 1953,
+          "label": 0,
+          "dual_abs": 0.9895084475599828
+        },
+        {
+          "subset_row": 823,
+          "train_row": 18668,
+          "label": 8,
+          "dual_abs": 0.9576649334672946
+        },
+        {
+          "subset_row": 1980,
+          "train_row": 44399,
+          "label": 0,
+          "dual_abs": 0.9389006032540673
+        },
+        {
+          "subset_row": 1701,
+          "train_row": 38575,
+          "label": 0,
+          "dual_abs": 0.9326419400486594
+        }
+      ],
+      "nearest_test": [
+        {
+          "test_index": 206,
+          "label": 0,
+          "predicted": 8,
+          "decision_score": -0.0005902808449488872,
+          "correct": false
+        },
+        {
+          "test_index": 3335,
+          "label": 0,
+          "predicted": 4,
+          "decision_score": 0.001300816226577961,
+          "correct": false
+        },
+        {
+          "test_index": 6815,
+          "label": 0,
+          "predicted": 0,
+          "decision_score": 0.001494712712036328,
+          "correct": true
+        },
+        {
+          "test_index": 5310,
+          "label": 0,
+          "predicted": 8,
+          "decision_score": -0.0035207469896512134,
+          "correct": false
+        },
+        {
+          "test_index": 7648,
+          "label": 0,
+          "predicted": 9,
+          "decision_score": 0.003930410514117522,
+          "correct": false
+        },
+        {
+          "test_index": 242,
+          "label": 8,
+          "predicted": 1,
+          "decision_score": -0.004177084667371822,
+          "correct": false
+        },
+        {
+          "test_index": 6861,
+          "label": 8,
+          "predicted": 8,
+          "decision_score": -0.006273986397575593,
+          "correct": true
+        },
+        {
+          "test_index": 6684,
+          "label": 8,
+          "predicted": 8,
+          "decision_score": -0.007156012184703908,
+          "correct": true
+        }
+      ],
+      "n_support_vectors": 139
+    }
+  ]
+}

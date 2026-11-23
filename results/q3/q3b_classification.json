@@ -1,0 +1,40 @@
+{
+  "question": "Q3b",
+  "classifier": "cnn_matched",
+  "classifier_introduced_in": "Q1a",
+  "classifier_seed": 26003,
+  "classifier_val_accuracy": 0.7666,
+  "classifier_checkpoint": "/scratch/m26csa003/ML_assignment_3/results/q1/checkpoints/cnn_matched_seed26003.pt",
+  "clean_autoencoder_bottleneck": 512,
+  "noise_sigma": 0.25,
+  "rows": [
+    {
+      "condition": "clean",
+      "test_accuracy": 0.7612,
+      "test_loss": 0.8543339037418366,
+      "pixel_mse_vs_clean": 0.0,
+      "psnr_vs_clean": null
+    },
+    {
+      "condition": "corrupted",
+      "test_accuracy": 0.167,
+      "test_loss": 6.365998324584961,
+      "pixel_mse_vs_clean": 0.04838503897190094,
+      "psnr_vs_clean": 13.152889048097379
+    },
+    {
+      "condition": "clean_ae_of_corrupted",
+      "test_accuracy": 0.3345,
+      "test_loss": 2.9602180992126463,
+      "pixel_mse_vs_clean": 0.009735262021422386,
+      "psnr_vs_clean": 20.11652355091407
+    },
+    {
+      "condition": "denoising_ae_of_corrupted",
+      "test_accuracy": 0.3296,
+      "test_loss": 3.065456702423096,
+      "pixel_mse_vs_clean": 0.007572834379971027,
+      "psnr_vs_clean": 21.207415412146332
+    }
+  ]
+}

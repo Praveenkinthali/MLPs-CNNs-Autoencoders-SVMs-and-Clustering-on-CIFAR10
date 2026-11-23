@@ -1,0 +1,124 @@
+{
+  "rows": [
+    {
+      "model": "mlp_matched",
+      "seed": 26003,
+      "checkpoint_epoch": 10,
+      "val_accuracy": 0.5118,
+      "test_loss": 1.4622553440093995,
+      "test_accuracy": 0.5056,
+      "question": "Q1",
+      "split": "official_test"
+    },
+    {
+      "model": "mlp_matched",
+      "seed": 26004,
+      "checkpoint_epoch": 21,
+      "val_accuracy": 0.5152,
+      "test_loss": 1.6371122592926026,
+      "test_accuracy": 0.5023,
+      "question": "Q1",
+      "split": "official_test"
+    },
+    {
+      "model": "mlp_matched",
+      "seed": 26005,
+      "checkpoint_epoch": 20,
+      "val_accuracy": 0.518,
+      "test_loss": 1.6101192121505736,
+      "test_accuracy": 0.5052,
+      "question": "Q1",
+      "split": "official_test"
+    },
+    {
+      "model": "cnn_matched",
+      "seed": 26003,
+      "checkpoint_epoch": 27,
+      "val_accuracy": 0.7666,
+      "test_loss": 0.8543339037418366,
+      "test_accuracy": 0.7612,
+      "question": "Q1",
+      "split": "official_test"
+    },
+    {
+      "model": "cnn_matched",
+      "seed": 26004,
+      "checkpoint_epoch": 27,
+      "val_accuracy": 0.7526,
+      "test_loss": 0.7761219144821166,
+      "test_accuracy": 0.7507,
+      "question": "Q1",
+      "split": "official_test"
+    },
+    {
+      "model": "cnn_matched",
+      "seed": 26005,
+      "checkpoint_epoch": 25,
+      "val_accuracy": 0.7066,
+      "test_loss": 0.8622124900817871,
+      "test_accuracy": 0.7044,
+      "question": "Q1",
+      "split": "official_test"
+    },
+    {
+      "model": "mlp_wide",
+      "seed": 26003,
+      "checkpoint_epoch": 30,
+      "val_accuracy": 0.5338,
+      "test_loss": 2.9280354866027833,
+      "test_accuracy": 0.5287,
+      "question": "Q1",
+      "split": "official_test"
+    },
+    {
+      "model": "mlp_wide",
+      "seed": 26004,
+      "checkpoint_epoch": 20,
+      "val_accuracy": 0.5272,
+      "test_loss": 2.0812195766448975,
+      "test_accuracy": 0.5276,
+      "question": "Q1",
+      "split": "official_test"
+    },
+    {
+      "model": "mlp_wide",
+      "seed": 26005,
+      "checkpoint_epoch": 24,
+      "val_accuracy": 0.5372,
+      "test_loss": 2.490718213272095,
+      "test_accuracy": 0.5237,
+      "question": "Q1",
+      "split": "official_test"
+    },
+    {
+      "model": "mlp_regularised",
+      "seed": 26003,
+      "checkpoint_epoch": 26,
+      "val_accuracy": 0.5164,
+      "test_loss": 1.405987787437439,
+      "test_accuracy": 0.5007,
+      "question": "Q1",
+      "split": "official_test"
+    },
+    {
+      "model": "mlp_regularised",
+      "seed": 26004,
+      "checkpoint_epoch": 27,
+      "val_accuracy": 0.5142,
+      "test_loss": 1.3863985076904297,
+      "test_accuracy": 0.5084,
+      "question": "Q1",
+      "split": "official_test"
+    },
+    {
+      "model": "mlp_regularised",
+      "seed": 26005,
+      "checkpoint_epoch": 30,
+      "val_accuracy": 0.5104,
+      "test_loss": 1.398154867553711,
+      "test_accuracy": 0.5047,
+      "question": "Q1",
+      "split": "official_test"
+    }
+  ]
+}

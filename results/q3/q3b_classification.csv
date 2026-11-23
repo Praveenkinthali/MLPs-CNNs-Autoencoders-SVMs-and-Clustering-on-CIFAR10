@@ -1,0 +1,5 @@
+condition,test_accuracy,test_loss,pixel_mse_vs_clean,psnr_vs_clean
+clean,0.76120000,0.85433390,0.00000000,
+corrupted,0.16700000,6.36599832,0.04838504,13.15288905
+clean_ae_of_corrupted,0.33450000,2.96021810,0.00973526,20.11652355
+denoising_ae_of_corrupted,0.32960000,3.06545670,0.00757283,21.20741541
